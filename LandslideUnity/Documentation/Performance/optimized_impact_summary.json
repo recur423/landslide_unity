@@ -1,0 +1,23 @@
+{
+    "unityVersion": "2022.3.62f3c1",
+    "graphicsDevice": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "scope": "Windows Player, 1280x720 offscreen camera, impact t10-24s; script time includes transform sync; render submission is CPU-side Camera.Render, not isolated GPU time; frame intervals include runtime scheduling; no image encoding and no IMGUI",
+    "samples": 480,
+    "colliderCount": 277,
+    "rigidbodyCount": 276,
+    "scriptUpdateMs": {
+        "median": 3.5353000000000005,
+        "p95": 5.7827,
+        "max": 6.7576
+    },
+    "renderSubmissionMs": {
+        "median": 1.1498000000000002,
+        "p95": 1.3972,
+        "max": 1.8287
+    },
+    "frameIntervalMs": {
+        "median": 6.939600221812725,
+        "p95": 9.312099777162075,
+        "max": 11.25119999051094
+    }
+}

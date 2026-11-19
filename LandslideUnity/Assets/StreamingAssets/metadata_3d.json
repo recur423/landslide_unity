@@ -1,0 +1,17 @@
+{
+  "model": "2-D depth-averaged shallow granular flow on 3-D terrain surface",
+  "input_relation": "Same rainfall trigger and material parameters as the 2-D profile demo; curved valley cross-section added",
+  "trigger_time_min": 89.0,
+  "grid_shape": [
+    420,
+    70
+  ],
+  "grid_cell_m": [
+    1.0,
+    2.0
+  ],
+  "mass_relative_error": 1.4764448523732148e-16,
+  "peak_speed_m_s": 18.20843942721973,
+  "maximum_front_x_m": 338.5,
+  "total_initial_mass_kg": 6307872.407956755
+}

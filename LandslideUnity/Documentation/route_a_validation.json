@@ -1,0 +1,45 @@
+{
+  "frames": 720,
+  "fps": 30,
+  "duration_seconds": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "baseline_max_error": {
+    "clock": 0.0,
+    "time": 0.0,
+    "FS": 0.0,
+    "rainMinutes": 0.0,
+    "currentSpeed": 0.0,
+    "peakSpeed": 0.0,
+    "advance": 0.0
+  },
+  "response_counts_unchanged": true,
+  "terminal_volumes_m3": {
+    "sourceLoss": 3034.487373793938,
+    "toeDeposit": 1447.0181958655478
+  },
+  "old_cached_terminal_volumes_m3": {
+    "sourceLoss": 3029.249755859375,
+    "toeDeposit": 1444.9947509765625
+  },
+  "simulation_sha256": "fd17e70a0fabfdf17cc35e24e2c6ad9fe6cc0aba8c07c7d9731626756a33f4b6",
+  "continuous_camera_boundaries": [
+    105,
+    210,
+    360,
+    450,
+    540,
+    600
+  ],
+  "transition_seconds": 0.8,
+  "audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "source_peak": 0.752899169921875,
+    "source_rms": 0.05792463570833206,
+    "decoded_aac_peak": 0.7332766652107239
+  }
+}

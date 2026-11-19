@@ -1,0 +1,125 @@
+{
+    "unityVersion": "2022.3.62f3c1",
+    "graphicsDevice": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "scope": "Windows Player, 1280x720 offscreen camera, impact t10-24s; component times bracket four SetState calls; surface stages break down topology, soil vertices, normals, velocity strain, block deformation, mesh upload, seam, boundary and scarp; other surface is residual SetState time; other script includes RefreshWorld overhead, reflection and transform sync; render submission is CPU-side Camera.Render, not isolated GPU time; frame intervals include runtime scheduling; no image encoding and no IMGUI",
+    "samples": 480,
+    "colliderCount": 277,
+    "rigidbodyCount": 276,
+    "scriptUpdateMs": {
+        "median": 15.728000000000002,
+        "p95": 23.1294,
+        "max": 29.885
+    },
+    "renderSubmissionMs": {
+        "median": 12.5517,
+        "p95": 15.4069,
+        "max": 19.4784
+    },
+    "frameIntervalMs": {
+        "median": 29.34359945356846,
+        "p95": 36.97260096669197,
+        "max": 46.71759903430939
+    },
+    "surfaceMs": {
+        "median": 13.946800000000002,
+        "p95": 21.3339,
+        "max": 27.3492
+    },
+    "treesMs": {
+        "median": 0.24810000000000002,
+        "p95": 0.2978,
+        "max": 0.561
+    },
+    "debrisMs": {
+        "median": 0.7982,
+        "p95": 0.89,
+        "max": 1.7099
+    },
+    "housesMs": {
+        "median": 0.6048,
+        "p95": 0.7847000000000001,
+        "max": 1.1425
+    },
+    "otherScriptMs": {
+        "median": 0.2493000000000002,
+        "p95": 0.516400000000001,
+        "max": 0.9946000000000024
+    },
+    "surfaceStages": {
+        "topologyMs": {
+            "median": 0.0,
+            "p95": 7.4091000000000009,
+            "max": 9.136000000000001
+        },
+        "soilVerticesMs": {
+            "median": 1.6325,
+            "p95": 1.8682,
+            "max": 2.579
+        },
+        "normalsMs": {
+            "median": 2.2252,
+            "p95": 2.4068,
+            "max": 2.7058
+        },
+        "strainMs": {
+            "median": 1.987,
+            "p95": 2.2051000000000005,
+            "max": 2.9102
+        },
+        "blockDeformationMs": {
+            "median": 4.0012,
+            "p95": 4.341600000000001,
+            "max": 5.1071
+        },
+        "blockUploadMs": {
+            "median": 0.1203,
+            "p95": 0.2011,
+            "max": 0.328
+        },
+        "seamsMs": {
+            "median": 3.2977000000000005,
+            "p95": 4.103400000000001,
+            "max": 4.976500000000001
+        },
+        "boundaryWallsMs": {
+            "median": 1.104,
+            "p95": 1.2017,
+            "max": 1.4002000000000002
+        },
+        "scarpMs": {
+            "median": 0.0055000000000000009,
+            "p95": 0.0196,
+            "max": 0.33490000000000005
+        },
+        "otherSurfaceMs": {
+            "median": 0.006600000000002382,
+            "p95": 0.009300000000001419,
+            "max": 0.017800000000001149
+        },
+        "seamGeometryMs": {
+            "median": 2.6727000000000005,
+            "p95": 3.109,
+            "max": 3.6346000000000004
+        },
+        "seamUploadMs": {
+            "median": 0.7135,
+            "p95": 1.4536,
+            "max": 2.0913
+        },
+        "openSeams": {
+            "median": 673.0,
+            "p95": 958.0,
+            "max": 993.0
+        },
+        "visibleSeams": {
+            "median": 1087.0,
+            "p95": 1150.0,
+            "max": 1156.0
+        },
+        "totalSeams": {
+            "median": 2152.0,
+            "p95": 2234.0,
+            "max": 2238.0
+        }
+    }
+}
